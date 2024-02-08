@@ -40,13 +40,14 @@
 
   main {
     width: 90%;
-    max-width: 350px;
-    background-color: var(--Very-pale-blue);
+    max-width: 340px;
+    background-color: #fff;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid red;
   }
 
   .img-wrapper img {
@@ -54,7 +55,7 @@
   }
 
   .summary-content {
-    max-width: 85%;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,14 +72,15 @@
     font-size: 1.3rem;
     font-weight: var(--ftw-900);
     color: var(--Dark-blue);
-    margin-top: 1em; 
-    margin-bottom: .25em;
+    margin-top: 1.5em; 
+    margin-bottom: .5em;
   }
 
   .summary-content--p {
     color: var(--Desaturated-blue);
     font-family: 'Red Hat Display', sans-serif;
-    line-height: 1.5;
+    line-height: 1.8;
+    margin-bottom: .5em;
   }
 
   .payment-summary {
@@ -88,19 +90,19 @@
     flex-wrap: wrap;
     width: 100%;
     margin: 1em auto;
-    padding: 1em;
+    padding: 1.5em;
     background-color: #dfe5fb69;
     border-radius: 10px;
   }
 
   .payment-summary img {
-  margin-right: 1.5em;
+    margin-right: 1.5em;
   }
 
   .payment-plan p {
     font-family: 'Red Hat Display', sans-serif;
     color: var(--Dark-blue);
-    font-weight: var(--ftw-700);
+    font-weight: var(--ftw-900);
   }
 
   .payment-plan span {
@@ -113,6 +115,7 @@
     color: var(--Bright-blue);
     font-family: 'Red Hat Display', sans-serif;
     font-weight: var(--ftw-700);
+    font-size: 8px;
   }
 
   .payment-summary a:hover {
@@ -123,7 +126,7 @@
   .payment--btn {
     width: 100%;
     margin: 1em auto;
-    padding: .8em 1em;
+    padding: 1em;
     border: none;
     border-radius: 10px;
     background-color: var(--Bright-blue);
@@ -147,6 +150,7 @@
     font-weight: var(--ftw-700);
     font-family: 'Red Hat Display', sans-serif;
     margin-block: 1em;
+    padding-bottom: 2em;
   }
 
   .cancel--order__link:hover {
@@ -171,8 +175,10 @@
       background-repeat: no-repeat;
       background-size: auto;
     }
-
     main {
-      max-width: 400px;
+      max-width: 450px;
+    }
+    .summary-content--title  {
+      font-size: 1.8rem;
     }
   }
