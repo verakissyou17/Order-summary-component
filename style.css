@@ -90,7 +90,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    margin: 0 auto;
+    margin: .5em auto;
     padding: 1em;
     background-color: #dfe5fb69;
     border-radius: 10px;
@@ -129,7 +129,7 @@
     font-weight: var(--ftw-700);
     font-family: 'Red Hat Display', sans-serif;
     width: 100%;
-    margin: 1em auto;
+    margin: 2em auto;
     padding: 1em;
     border: none;
     border-radius: 10px;
