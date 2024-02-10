@@ -87,10 +87,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    margin: 1em auto;
-    padding: 1.5em;
+    margin: 0 auto;
+    padding: 1em;
     background-color: #dfe5fb69;
     border-radius: 10px;
   }
