@@ -123,6 +123,9 @@
   }
 
   .payment--btn {
+    color: #fff;
+    font-weight: var(--ftw-700);
+    font-family: 'Red Hat Display', sans-serif;
     width: 100%;
     margin: 1em auto;
     padding: 1em;
@@ -134,13 +137,6 @@
 
   .payment--btn:hover {
     opacity: .75;
-  }
-
-  .payment--link {
-    text-decoration:none;
-    color: #fff;
-    font-weight: var(--ftw-700);
-    font-family: 'Red Hat Display', sans-serif;
   }
 
   .cancel--order__link {
